@@ -1,1 +1,1 @@
-# Sistema-inform-tico-para-peque-o-negocio-hostelero.
+# Sistema-informatico-para-pequeno-negocio-hostelero.

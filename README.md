@@ -119,27 +119,27 @@ Usaré DNS para el nombre de dominio público.
 
 Pantalla para iniciar sesión en la página:
 
-<!-- IMAGEN PENDIENTE: pantalla de inicio de sesión -->
+![Pantalla de inicio de sesión](img/login.png)
 
 La pantalla de inicio:
 
-<!-- IMAGEN PENDIENTE: pantalla de inicio -->
+![Pantalla de inicio](img/inicio.png)
 
 Interfaz para hacer pedidos:
 
-<!-- IMAGEN PENDIENTE: interfaz de pedidos -->
+![Interfaz para hacer pedidos](img/pedidos.png)
 
 Para hacer reservas, tanto en terraza:
 
-<!-- IMAGEN PENDIENTE: reservas en terraza -->
+![Reservas en terraza](img/reservas-terraza.png)
 
 Como en salón:
 
-<!-- IMAGEN PENDIENTE: reservas en salón -->
+![Reservas en salón](img/reservas-salon.png)
 
 Y para hacer consultas:
 
-<!-- IMAGEN PENDIENTE: interfaz de consultas -->
+![Interfaz de consultas](img/consultas.png)
 
 ## Gestor de base de datos
 
@@ -147,7 +147,7 @@ Voy a usar el gestor de base de datos MySQL, ya que creo que es el lenguaje que 
 
 La infraestructura de la base de datos de mi proyecto se verá de la siguiente manera representado en un diagrama entidad relación:
 
-<!-- IMAGEN PENDIENTE: diagrama entidad-relación -->
+![Diagrama entidad-relación](img/er.png)
 
 ## Entornos de aplicación del proyecto
 
@@ -243,7 +243,7 @@ Por último, solucionar los posibles problemas que puedan surgir y realizar mejo
 
 Prototipo de la red:
 
-<!-- IMAGEN PENDIENTE: prototipo de red (Cisco Packet Tracer) -->
+![Prototipo de la red](img/red.png)
 
 **Bibliografías:**
 

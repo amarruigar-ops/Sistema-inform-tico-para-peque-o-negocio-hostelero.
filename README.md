@@ -1,43 +1,49 @@
-Anteproyecto
+# Anteproyecto
 
-Proyecto intermodular de Administración de Sistemas informáticos en Red
+**Proyecto intermodular de Administración de Sistemas informáticos en Red**
 
 Ciclo Formativo de Grado Superior
 
-Técnico Superior en Administración de Sistemas Informáticos en Red
+**Técnico Superior en Administración de Sistemas Informáticos en Red**
 
 Curso 26/27
 
-Autor: Marcos Ruiz García
+**Autor:** Marcos Ruiz García
 
-Índice
-Introducción
-1. Título
-2. Descripción
-3. Justificación
-4. Objetivos
-5. Lenguajes de programación y tecnologías
-6. Prototipo de interfaz de usuario
-7. Gestor de base de datos
-8. Entornos de aplicación del proyecto
-9. Fases de desarrollo
-10. Módulos del ciclo formativo relacionados
-11. Anexos y bibliografías
-Introducción
+---
+
+## Índice
+
+- [Introducción](#introducción)
+- [1. Título](#título)
+- [2. Descripción](#descripción)
+- [3. Justificación](#justificación)
+- [4. Objetivos](#objetivos)
+- [5. Lenguajes de programación y tecnologías](#lenguajes-de-programación-y-tecnologías)
+- [6. Prototipo de interfaz de usuario](#prototipo-de-interfaz-de-usuario)
+- [7. Gestor de base de datos](#gestor-de-base-de-datos)
+- [8. Entornos de aplicación del proyecto](#entornos-de-aplicación-del-proyecto)
+- [9. Fases de desarrollo](#fases-de-desarrollo)
+- [10. Módulos del ciclo formativo relacionados](#módulos-del-ciclo-formativo-relacionados)
+- [11. Anexos y bibliografías](#anexos-y-bibliografía)
+
+---
+
+## Introducción
 
 En este proyecto voy a diseñar un sistema informático(base de datos,aplicación y página web,red,servidor)para el pequeño bar en el que trabajo.Así puedo conseguir optimizar el trabajo.
 
-Título
+## Título
 
 Sistema de gestión para pequeños negocios hosteleros
 
-Descripción
+## Descripción
 
 Mi proyecto va a consistir en realizar una aplicación web para el bar en el que trabajo,pudiendo servir esta también para diversos comercios de hostelería.Está enfocada para pequeños comercios/negocios.Los clientes, a través del navegador acceden a ella y puedan hacer consultas, hacer reservas,pedidos(ya sea a domicilio,recoger o en el propio bar).Los trabajadores ,dueño podrán gestionar el stock a través de esta.
 
 Si un producto se ha acabado, un trabajador accede a la aplicación ,lo indica y esta no deja pedir más de ese producto.Los clientes podrán iniciar sesión si lo desean y sus datos quedarán guardados en una base de datos.Estos podrán ver también la carta, las redes sociales, el número de teléfono…Este no engloba pagos reales,solo simulados ni pedidos a proveedores.
 
-Justificación
+## Justificación
 
 El bar en el cual trabajo es un negocio humilde sin muchos recursos económicos.Muchas veces, por no tener un buen sistema, los clientes piden productos agotados, ya que los trabajadores no tenemos conocimientos muchas veces de qué productos se encuentran agotados.
 
@@ -57,7 +63,7 @@ CoverManager es similar a TheFork, con la diferencia de que este si es un softwa
 
 Mi sistema combinará las funciones de los vistos anteriormente, será un software personalizado para cada negocio hostelero ,accesible y orientado para pequeños negocios, abarcando las funcionalidades necesarias, como consultas, gestión de reservas y pedidos,gestión de stock…
 
-OBJETIVOS
+## OBJETIVOS
 
 El objetivo principal que me he propuesto es configurar un servicio informático para optimizar el trabajo de pequeños negocios hosteleros.
 
@@ -85,7 +91,7 @@ Configurar el sistema de monitorización en una máquina virtual independiente d
 
 Configurar la replicación de la base de datos entre los nodos para que ambos servidores utilicen la misma base de datos.
 
-Lenguajes de programación y tecnologías
+## Lenguajes de programación y tecnologías
 
 Para la realización de este proyecto , primero usaré Virtualbox para crear máquinas virtuales , que serán linux, más concretamente ubuntu desktop ya que al ser gráfico es más sencillo gestionarlas, y es más sencillo para instalar los servicios deseados.
 
@@ -109,7 +115,7 @@ Utilizaré keepalived para la ip virtual compartida entre los balanceadores
 
 Usaré DNS para el nombre de dominio público.
 
-Prototipo de interfaz de usuario
+## Prototipo de interfaz de usuario
 
 Pantalla para iniciar sesión en la página:
 
@@ -134,14 +140,16 @@ Como en salón:
 Y para hacer consultas:
 
 <!-- IMAGEN PENDIENTE: interfaz de consultas -->
-Gestor de base de datos
+
+## Gestor de base de datos
 
 Voy a usar el gestor de base de datos MySQL, ya que creo que es el lenguaje que más manejo, el que más he utilizado y el más óptimo para almacenar datos de clientes,pedidos…
 
 La infraestructura de la base de datos de mi proyecto se verá de la siguiente manera representado en un diagrama entidad relación:
 
 <!-- IMAGEN PENDIENTE: diagrama entidad-relación -->
-Entornos de aplicación del proyecto
+
+## Entornos de aplicación del proyecto
 
 Para el hardware de mi proyecto,usaré 4 máquinas físicas, 2 para los servidores web activos en clúster y las otras 2 para los balanceadores de carga.
 
@@ -169,7 +177,7 @@ Para la simulación de este proyecto usaré máquinas virtuales para simular que
 
 Para hacer el prototipo de red, he utilizado CiscoPacketracer.
 
-FASES DE DESARROLLO
+## FASES DE DESARROLLO
 
 **Planificación inicial:**Definir cómo voy a desarrollar el proyecto y qué elementos voy a necesitar para llevarlo a cabo. Organizar las tareas que tengo que realizar, establecer los objetivos que quiero conseguir y determinar qué máquinas, programas y servicios voy a utilizar. También estudiaré cómo distribuir el trabajo para poder completar todas las partes del proyecto.
 
@@ -197,7 +205,7 @@ Configurar el dominio y el acceso a la página web, verificar que los servicios 
 
 También comprobar que los trabajadores y administradores pueden acceder a sus respectivos apartados con los permisos correspondientes. Dejar configurados los servicios para que se inicien automáticamente y el sistema pueda funcionar de forma continua.
 
-Mantenimiento y soporte: Una vez puesto en marcha el sistema, será necesario realizar un mantenimiento periódico para garantizar su correcto funcionamiento.
+**Mantenimiento y soporte:** Una vez puesto en marcha el sistema, será necesario realizar un mantenimiento periódico para garantizar su correcto funcionamiento.
 
 Actualizar los sistemas operativos y los servicios instalados para corregir posibles errores y mejorar la seguridad. También revisar los registros de actividad y las alertas generadas por el sistema de monitorización para detectar posibles problemas.
 
@@ -205,7 +213,7 @@ Comprobar periódicamente que las copias de seguridad se realizan correctamente 
 
 Por último, solucionar los posibles problemas que puedan surgir y realizar mejoras en la aplicación según las necesidades del negocio.
 
-Módulos del ciclo formativo relacionados
+## Módulos del ciclo formativo relacionados
 
 **Implantación de sistemas operativos:**Instalación y configuración de Ubuntu en los servidores y máquinas virtuales.
 
@@ -227,25 +235,25 @@ Módulos del ciclo formativo relacionados
 
 **Seguridad y alta disponibilidad:**Protección de los servidores, configuración de HAProxy, Keepalived y monitorización.
 
-ANEXOS Y BIBLIOGRAFÍA
+## ANEXOS Y BIBLIOGRAFÍA
 
 **Anexos:**Prototipo interfaz de la página web:
 
-https://www.figma.com/make/vnpZdQyytBaSRNhA8QoAVP/Web-de-Reservas-y-Pedidos?t=xP7PN0TLsF0jrzzw-20&fullscreen=1
+<https://www.figma.com/make/vnpZdQyytBaSRNhA8QoAVP/Web-de-Reservas-y-Pedidos?t=xP7PN0TLsF0jrzzw-20&fullscreen=1>
 
 Prototipo de la red:
 
 <!-- IMAGEN PENDIENTE: prototipo de red (Cisco Packet Tracer) -->
 
-Bibliografías:
+**Bibliografías:**
 
 Búsqueda de Estado del arte:
 
-https://www.thefork.es/contact
+<https://www.thefork.es/contact>
 
-https://www.theforkmanager.com/es/landing-page/sistema-de-software-para-restaurante?ps=SEA&sfcid=701Jv00001EDAygIAH&utm_source=google&utm_medium=cpc&utm_campaign=ES_GOOGLE_B2B_AI-Max&utm_term=gestor%20de%20reservas%20restaurante&gad_source=1&gad_campaignid=24380685743&gbraid=0AAAAADlbOxV7jI25ALMRlYL068UU-Dz1T&gclid=Cj0KCQiAtvXXBhC2ARIsAJc8SURYWE6Q7GWtaz386IO7EZlk4qlKx4zEzErOrEmqUDOG-bKpZWvrULcaAh5pEALw_wcB
+<https://www.theforkmanager.com/es/landing-page/sistema-de-software-para-restaurante?ps=SEA&sfcid=701Jv00001EDAygIAH&utm_source=google&utm_medium=cpc&utm_campaign=ES_GOOGLE_B2B_AI-Max&utm_term=gestor%20de%20reservas%20restaurante&gad_source=1&gad_campaignid=24380685743&gbraid=0AAAAADlbOxV7jI25ALMRlYL068UU-Dz1T&gclid=Cj0KCQiAtvXXBhC2ARIsAJc8SURYWE6Q7GWtaz386IO7EZlk4qlKx4zEzErOrEmqUDOG-bKpZWvrULcaAh5pEALw_wcB>
 
-https://glovoapp.com/docs/es/faq/
+<https://glovoapp.com/docs/es/faq/>
 
 Datos MySQL:
 
